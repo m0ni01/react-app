@@ -1,0 +1,39 @@
+.section {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 2%;
+  width: 50vi;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-item {
+  display: inline-block;
+}
+
+.button-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.active {
+  border-radius: 45%;
+  background-color: red;
+  width: 35px;
+}
+
+.open-close {
+  float: right;
+  margin-right: 0px;
+}
+.open-close::after {
+  clear: both;
+  content: "";
+}
