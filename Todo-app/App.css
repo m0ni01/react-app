@@ -1,0 +1,63 @@
+* {
+  font-size: ;
+}
+
+.topheading {
+  text-align: center;
+  display: block;
+}
+
+.container {
+  background-color: antiquewhite;
+  width: 40vi;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6%;
+}
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 10%;
+}
+
+.list li {
+  margin: 10px;
+}
+
+.list_text {
+  display: inline-block;
+  line-height: 1.5;
+  width: 200px;
+  overflow: auto;
+  padding-right: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.custom-checkbox {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px; /* Adjust the width of the checkbox */
+  margin-right: 30px;
+  cursor: pointer;
+  transform: scale(1.6);
+  vertical-align: middle;
+}
+
+/* Style the custom checkbox */
+
+.ischecked {
+  text-decoration: line-through;
+}
