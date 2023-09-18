@@ -1,0 +1,21 @@
+.box {
+  height: 5rem;
+  width: 5rem;
+  background-color: white;
+  font-size: 5em;
+  margin: 4px;
+  border-radius: 10%;
+  box-shadow: 0px 0px 10px hsl(0, 3%, 43%);
+  text-align: center;
+  line-height: 5rem;
+  border: none;
+  font: bold;
+}
+
+.x {
+  color: hsl(360, 87%, 49%);
+}
+
+.o {
+  color: hsl(195, 75%, 53%);
+}

@@ -1,0 +1,9 @@
+.resetbtn {
+  border: none;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  margin: 10px auto;
+  display: block;
+  background-color: yellowgreen;
+}
